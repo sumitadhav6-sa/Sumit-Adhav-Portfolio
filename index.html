@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sumit Adhav - Full Stack Developer from Pune. Python, Flask, JavaScript, MySQL.">
+<title>Sumit Adhav | Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="header" id="header">
+  <nav class="navbar" aria-label="Main">
+    <!-- <a href="#home" class="logo">Sumit<span>.</span></a> -->
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#knowledge">Knowledge</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <span class="nav-pill" id="navPill"></span>
+    </ul>
+  </nav>
+</header>
+<main>
+<section id="home" class="home">
+  <div class="home-text">
+    <p class="hello">Hello, I'm</p>
+    <h1>Sumit Adhav</h1>
+    <h2><span id="typed"></span><span class="cursor">|</span></h2>
+    <p class="lead">I believe great development is not just about writing code. It is about building solutions that help solve real-world problems.</p>
+    <div class="home-buttons">
+      <a href="#projects" class="btn btn-sm">View My Projects</a>
+      <a href="./Sumit_Adhav_Resume.pdf" class="btn btn-sm" target="_blank" rel="noopener">View Resume</a>
+      <a href="./Sumit_Adhav_Resume.pdf" class="btn btn-sm" download>Download Resume</a>
+      <a href="./Data Analytics Certificate .pdf" class="btn btn-sm" target="_blank" rel="noopener">Internship Certificate</a>
+    </div>
+    <div class="home-social">
+      <a href="https://github.com/sumitadhav6-sa" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/sumit-adhav-41b818292/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:sumitadhav6@gmail.com">Email</a>
+    </div>
+  </div>
+  <div class="home-photo">
+    <div class="photo-ring">
+      <img src="profle.jpg" alt="Sumit Adhav" id="profilePhoto" width="360" height="360">
+      <div class="photo-fallback" id="photoFallback">SA</div>
+    </div>
+    <!-- <div class="badge badge-a">Python · Flask</div> -->
+    <div class="badge badge-b">Pune, India</div>
+  </div>
+</section>
+<section id="about" class="about">
+  <h2 class="heading">About Me</h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <h3>Full Stack Developer from Pune</h3>
+      <p>My name is Sumit Adhav. I completed my BSc in Computer Science from SPPU and I am currently pursuing an MSc in Computer Science, along with a Python Full Stack Development course at Fortune Cloud.</p>
+      <p>I work with both frontend and backend technologies, and I enjoy building useful, user-friendly web applications that people can actually use.</p>
+      <div class="stats">
+        <div><strong data-count="2">0</strong><span>Projects built</span></div>
+        <div><strong data-count="4">0</strong><span>Skill areas</span></div>
+        <div><strong data-count="1">0</strong><span>Internship</span></div>
+      </div>
+    </div>
+    <ol class="timeline">
+      <li><h4>Python Full Stack Development</h4><p>Fortune Cloud (ongoing)</p></li>
+      <li><h4>MSc in Computer Science</h4><p>Currently pursuing</p></li>
+      <li><h4>Data Analytics Internship</h4><p>Certificate available above</p></li>
+      <li><h4>BSc in Computer Science</h4><p>SPPU, completed</p></li>
+    </ol>
+  </div>
+</section>
+<section id="skills" class="skills">
+  <h2 class="heading">My Skills</h2>
+  <div class="grid grid-4">
+    <div class="card"><h3>Frontend</h3><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+    <div class="card"><h3>Backend</h3><div class="chips"><span>Python</span><span>Flask</span></div></div>
+    <div class="card"><h3>Database</h3><div class="chips"><span>MySQL</span><span>SQLite</span></div></div>
+    <div class="card"><h3>Tools</h3><div class="chips"><span>Git</span><span>GitHub</span><span>Render</span><span>VS Code</span></div></div>
+  </div>
+</section>
+<section id="knowledge" class="knowledge">
+  <h2 class="heading">Basic Knowledge</h2>
+  <div class="grid grid-4">
+    <div class="card"><h3>Data Analytics</h3><div class="chips"><span>Advanced Excel</span><span>Power BI</span><span>Tableau</span></div></div>
+    <div class="card"><h3>Database</h3><div class="chips"><span>MySQL</span><span>SQLite</span></div></div>
+    <div class="card"><h3>Emerging Tech</h3><div class="chips"><span>AI</span><span>Machine Learning</span></div></div>
+    <div class="card"><h3>Office Tools</h3><div class="chips"><span>MS Word</span><span>MS PowerPoint</span><span>MS Excel</span></div></div>
+  </div>
+</section>
+<section id="projects" class="projects">
+  <h2 class="heading">My Projects</h2>
+  <div class="grid grid-2">
+    <article class="project">
+      <div class="project-top">LC</div>
+      <h3>LifeCare Clinic</h3>
+      <p>A clinic management system. Patients book appointments online, and administrators manage doctors and appointments.</p>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Flask</span><span>SQLite</span></div>
+      <div class="project-links">
+        <a class="btn btn-solid btn-sm" href="https://lifecare-clinic-management-system-1.onrender.com/" target="_blank" rel="noopener">Live Project</a>
+        <a class="btn btn-outline btn-sm" href="https://github.com/sumitadhav6-sa/LifeCare-Clinic" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+    <article class="project">
+      <div class="project-top">SIA</div>
+      <h3>SIA - AI Assistant</h3>
+      <p>An AI assistant that lets users talk to an AI using text and voice. It helps with everyday tasks.</p>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Flask</span><span>Gemini API</span></div>
+      <div class="project-links">
+        <a class="btn btn-outline btn-sm" href="https://github.com/sumitadhav6-sa/SIA-Assistant-Project" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="contact" class="contact">
+  <h2 class="heading">Contact Me</h2>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p>Have a project or an opportunity in mind? Send me a message and I will reply soon.</p>
+      <ul>
+        <li><b>Phone</b><a href="tel:+919075741846">+91 9075741846</a></li>
+        <li><b>Email</b><a href="mailto:sumitadhav6@gmail.com">sumitadhav6@gmail.com</a></li>
+        <li><b>Location</b><span>Pune, Maharashtra</span></li>
+        <li><b>Links</b><span><a href="https://www.linkedin.com/in/sumit-adhav-41b818292/" target="_blank" rel="noopener">LinkedIn</a> &nbsp; <a href="https://github.com/sumitadhav6-sa" target="_blank" rel="noopener">GitHub</a></span></li>
+      </ul>
+    </div>
+    <form class="contact-form" id="contactForm" novalidate>
+      <label>Your name<input type="text" id="cName" required autocomplete="name"></label>
+      <label>Your email<input type="email" id="cEmail" required autocomplete="email"></label>
+      <label>Message<textarea id="cMsg" rows="5" required></textarea></label>
+      <p class="form-note" id="formNote" role="status"></p>
+      <button type="submit" class="btn btn-solid">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <p>This Portfolio Developed By Sumit Adhav.</p>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+<script src="script.js"></script>
+</body>
+</html>
